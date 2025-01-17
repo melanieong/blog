@@ -24,7 +24,7 @@
     z-index: 1;
     width: 100%;
     max-width: 1300px;
-    margin: 0 auto;
+    margin: 0;
     padding: 0 50px;
 }
 
@@ -73,12 +73,13 @@
     width: auto;
 }
 
-.three__columns{
+.big-div{
     display: grid;
-    grid-template-columns: auto auto auto;
-    grid-gap: 10px;
-    padding: 10px;
-    border-left: 1px;
+    grid-template-rows: 500px;
+    grid-template-columns: 19.6% 49% 29.4%;
+    background-color: blue;
+    margin: 1rem;
+    column-gap: 1%;
 }
 
 .jump-to-menu{
@@ -91,4 +92,16 @@
     text-decoration: none;
     text-transform: uppercase;
     line-height: 1.5;
+}
+
+.left__container{
+    background-color: green;
+}
+
+.right__container{
+    background-color: red;
+}
+
+.content__container{
+    background: purple;
 }
