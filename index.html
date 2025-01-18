@@ -3,36 +3,56 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <title>Melanie Ong</title>
   </head>
   <body>
     <nav class="navbar">
-        <div class="navbar__container">
-            <a href="/" id="navbar__logo">Melanie Ong</a>
-            <div class="navbar__toggle" id="mobile__menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-            <ul class="navbar__menu">
-                <li class="navbar__item">
-                    <a href="/" class="navbar__links">Blog</a>
-                </li>
-                <li class="navbar__item">
-                    <a href="about.html" class="navbar__links">About</a>
-                </li>
-                <li class="navbar__item">
-                    <a href="contact.html" class="navbar__links">Contact</a>
-                </li>
-            </ul>
+      <div class="navbar__container">
+        <a href="/" id="navbar__logo">Melanie Ong</a>
+        <div class="navbar__toggle" id="mobile__menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
         </div>
-    </nav>
-    <div class="big-div">
-        <div class="left__container"><h1>1</h1></div>
-        <div class="content__container">2
-        </div>
-        <div class="right__container">3</div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="/" class="navbar__links">Blog</a>
+          </li>
+          <li class="navbar__item">
+            <a href="about.html" class="navbar__links">About</a>
+          </li>
+          <li class="navbar__item">
+            <a href="contact.html" class="navbar__links">Contact</a>
+          </li>
+        </ul>
       </div>
+    </nav>
+    <div class="wrap">
+      <div class="left__container"><h1>1</h1></div>
+      <div class="content__container">
+        2
+        <h1>About</h1>
+        <div id="jump-to-container">
+          <ul class="jump-to-menu">
+            <li class="jump-to-item">
+              <a href="#bio" class="jump-to-links">bio</a>
+            </li>
+            <li class="jump-to-item">
+              <a href="#FAQ" class="jump-to-links">FAQ</a>
+            </li>
+          </ul>
+          <img
+            src="https://news.ucsb.edu/sites/default/files/styles/large_2340x1212/public/2023-08/dog-nose-istock-uc-santa-barbara-small_0.jpg?itok=DJzNcrbH"
+            alt="placeholder for image of melanie"
+            id="placeholder"
+          />
+        </div>
+        <div #bio>
+          <h2>i am an artist</h2>
+        </div>
+      </div>
+      <div class="right__container">3</div>
+    </div>
   </body>
 </html>

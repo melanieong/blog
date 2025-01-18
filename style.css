@@ -73,13 +73,15 @@
     width: auto;
 }
 
-.big-div{
+.wrap{
     display: grid;
     grid-template-rows: 500px;
     grid-template-columns: 19.6% 49% 29.4%;
-    background-color: blue;
-    margin: 1rem;
+    border: 2px solid black;
+    margin: 0 auto;
+    max-width: 1300px;
     column-gap: 1%;
+
 }
 
 .jump-to-menu{
@@ -95,13 +97,14 @@
 }
 
 .left__container{
-    background-color: green;
+    border: 2px solid black
 }
 
 .right__container{
-    background-color: red;
+    border: 2px solid black
 }
 
 .content__container{
-    background: purple;
+    border: 2px solid black;
+    padding-left: 75px;
 }
